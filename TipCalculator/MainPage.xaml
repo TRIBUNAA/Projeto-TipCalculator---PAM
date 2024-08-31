@@ -59,7 +59,7 @@
         Maximum="100" Minimum="0" 
         ValueChanged="SliderTipValue_ValueChanged"/>
 
-        <HorizontalStackLayout
+        <HorizontalStackLayout 
         Spacing="10">
 
         <Button
@@ -102,6 +102,14 @@
         BorderWidth="2"/>
 
             </HorizontalStackLayout>
+
+        <Button
+        x:Name="SobreBtn"
+        Text="Sobre" 
+        HorizontalOptions="Fill"
+        Clicked="SobreBtn_Clicked"
+        BorderColor="Black"
+        BorderWidth="2"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
